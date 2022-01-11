@@ -2,9 +2,6 @@ export const rad = Math.PI / 180
 export const dx = 3
 export const distanceBetweenPipes = 90
 
-export const HOME_URL = 'https://xn--80adjbxl0aeb4ii6a.xn--p1ai'
-export const GAME_URL = '/bobly/'
-export const SHARE_TEXT = 'Попробуй побить мой рекорд в Bobly!\nИгра для тех, кто пока не готов принимать серьезные решения'
 export const RESULT_TEXT = [
 	'Отличное начало! Может попробуешь еще раз?',
 	'Неплохой результат! Продолжим?',
