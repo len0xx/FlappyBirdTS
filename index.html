@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlappyBird (in TypeScript)</title>
+        <link rel="stylesheet" href="src/styles.css">
+    </head>
+    <body>
+        <main class="game-frame">
+            <canvas id="game" width="393" height="700"></canvas>
+            <div class="overlay">
+                <div> <button class="yellow start">Играть</button> </div>
+            </div>
+        </main>
+        <script>var exports = {};</script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script type="module" src="src/GameMechanics.js?v=<?= time() ?>"></script>
+    </body>
+</html>

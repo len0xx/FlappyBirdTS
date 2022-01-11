@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"module": "es2015",
+		"target": "ES2016",
+		"strict": true,
+		"outDir": "src"
+	},
+	"files": [
+		"src/GameMechanics.ts"
+	]
+}
