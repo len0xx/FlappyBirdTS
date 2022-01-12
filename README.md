@@ -1,18 +1,18 @@
 # FlappyBirdTS
 
-Flappy Bird game written in TypeScript
+Игра Flappy Bird, написанная на TypeScript
 
-### How to compile and run
+### Компиляция и запуск
 
 ```bash
-# Compile with TypeScript compiler
+# Компиляция с помощью tsc
 npm run tsc
 
-# Install the basic NodeJS server
+# Установка простого веб-сервера NodeJS
 npm install http-server
 
-# Run the server
+# Запуск сервера
 http-server
 ```
 
-After this open up your browser of choice and go to `localhost:8080`
+После этого откройте браузер и перейдите по адресу `localhost:8080`
